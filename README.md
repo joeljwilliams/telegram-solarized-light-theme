@@ -24,8 +24,8 @@ It looks best in the environments configured to use Solarized color scheme (prim
 
 # Screenshots
 
-![Main screen](screenshots/main.png)
-![Login screen](screenshots/login.png)
+![Main screen](Screenshots/main.png)
+![Login screen](Screenshots/login.png)
 
 
 # Install
