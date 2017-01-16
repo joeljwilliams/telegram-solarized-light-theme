@@ -34,7 +34,7 @@ Login screen:
 # Install
 
 That's very easy. Here's my method:
-1. Run ```git clone git@gitlab.com:SlavMetal/hell.git```
+1. Run ```git clone git@gitlab.com:SlavMetal/telegram-solarized-dark-theme.git```
 2. Edit **colors.tdesktop-theme** using your favourite editor. 
 3. Run ```./build.sh``` (or zip **colors.tdesktop-theme** and **tile.png** manually and rename it to the **Theme.tdesktop-theme**).
 4. Upload archive to your Telegram cloud chat and press on this file, so you'll be asked if you want to use this theme. 
