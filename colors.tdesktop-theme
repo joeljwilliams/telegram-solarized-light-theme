@@ -1,0 +1,469 @@
+/*
+ * Telegram Solarized Dark Theme
+ * 
+ * Copyright 2017 SlavMetal https://t.me/SlavMetal
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+// Used Solarized colors
+BASE_03: #002b36;                               // Main color 1 (dark one)
+BASE_02: #073642;							    // Main color 2
+BASE_02_LIGHT: #083a47;						    // A lighter one
+BASE_02_PREVIEW: #0736427f;                     // Background color when sharing contact, forwarding message and so on
+BASE_01: #586e75;								// Bars, main buttons, timelines
+BASE_1: #97a1a1;								// System text (last seen, info), message previews, shadow
+BASE_2: #eee8d5;							 	// Incoming messages text
+BASE_3: #fdf6e3;							    // Titles, outcoming messages text
+
+COLOR_SELECTION: #0f4d5c;						// Used when selecting messages, sticker, etc.
+
+COLOR_YELLOW: #b58900;							// Used for some files
+COLOR_ORANGE: #cb4b16;							// Error values, close button
+COLOR_RED: #dc322f;								// Used for some files, 'block' buttons, wrong field values (like username)
+COLOR_BLUE: #268bd2;							// Used for some files
+COLOR_CYAN: #2aa198;							// Accent color 1
+COLOR_CYAN_LIGHT: #2daba1;						// Accent color 2 - just a bit lighter
+COLOR_GREEN: #859900;							// Used for some files and right field values (like username)
+COLOR_BLACK: #000000;							// Shh! We just need it!
+
+// Basic
+windowBg: BASE_03;                              // Window backgrounds
+windowFg: BASE_3;                               // Main text
+windowBgOver: BASE_02_LIGHT;                    // Search field background, buttons color in context menu, bot buttons
+windowBgRipple: BASE_03;                        // Inactive chat in chats list (press & hold)
+windowFgOver: windowFg;                         // black: fallback for over text color
+windowSubTextFg: BASE_1;                        // Chats list message preview text
+windowSubTextFgOver: BASE_1;                    // Mouse over chats list message preview text
+windowBoldFg: BASE_3;                           // Bold font (titles in Settings, Left menu options)
+windowBoldFgOver: COLOR_CYAN_LIGHT;             // Mouse over chats list chat name text (+ Left menu options on hover)
+windowBgActive: COLOR_CYAN;                     // Active button background (+ checkboxes background)
+windowFgActive: BASE_3;                         // Active selected chats list text / button text + checkboxes' "ticks" color
+windowActiveTextFg: COLOR_CYAN_LIGHT;           // Online status, links, recording cancel, etc
+windowShadowFg: BASE_01;                        // Window border shadows
+windowShadowFgFallback: BASE_02_LIGHT;          // Notification border
+
+shadowFg: BASE_02;                              // Internal border shadows
+slideFadeOutBg: BASE_02;
+slideFadeOutShadowFg: windowShadowFg;           // Window slide animation shadow
+
+imageBg: COLOR_BLACK;
+imageBgTransparent: BASE_3;
+
+// Widgets
+activeButtonBg: COLOR_CYAN;                     // Currently selected button background
+activeButtonBgOver: COLOR_CYAN_LIGHT;           // Mouse over currently selected button background
+activeButtonBgRipple: BASE_01;                  // Primary button background color (and active chat) - Press & hold 
+activeButtonFg: BASE_3;                         // Currently selected button text
+activeButtonFgOver: activeButtonFg;             // Mouse over currently selected button text
+activeButtonSecondaryFg: BASE_3;                // Counter color on primary button
+activeButtonSecondaryFgOver: BASE_3;            // Counter color on primary button (hover)
+activeLineFg: COLOR_CYAN;                       // Active input field line color (normal)
+activeLineFgError: COLOR_ORANGE;                // Active input field line color (error)
+
+lightButtonBg: BASE_03;                         // Secondary button background color (default)
+lightButtonBgOver: BASE_02;                     // Secondary button background color (hover)
+lightButtonBgRipple: BASE_03;                   // Secondary button background color (press & hold)
+lightButtonFg: BASE_3;                          // Secondary button text color
+lightButtonFgOver: lightButtonFg;
+
+attentionButtonFg: COLOR_RED;                   // Block user button ribbon
+attentionButtonFgOver: COLOR_RED;               // Block user button text 
+attentionButtonBgOver: BASE_02;                 // Block user button background (hover)
+attentionButtonBgRipple: BASE_02_LIGHT;         // Block user button background (press & hold)
+
+outlineButtonBg: BASE_03;                       // Buttons background in profiles (shared media)
+outlineButtonBgOver: lightButtonBgOver;
+outlineButtonOutlineFg: windowBgActive;
+outlineButtonBgRipple: lightButtonBgRipple;
+
+menuBg: BASE_03;
+menuBgOver: windowBgOver;
+menuBgRipple: windowBgRipple;
+menuIconFg: BASE_1;                             // Icons color (left menu button, scroll down, paperclip..)
+menuIconFgOver: COLOR_CYAN_LIGHT;               // Icons color on hover (left menu button, scroll down, paperclip..)
+menuSubmenuArrowFg: #373737;                    // (unknown)
+menuFgDisabled: #cccccc;
+menuSeparatorFg: BASE_03;                       // (unknown)
+
+scrollBarBg: COLOR_CYAN;                        // Scrollbar (chats list) current position
+scrollBarBgOver: COLOR_CYAN_LIGHT;              // Mouse over scrollbar (chats list) current position
+scrollBg: BASE_01;                              // Scrollbar (chats list) background
+scrollBgOver: BASE_01;                          // Mouse over scrollbar (chats list) background
+
+smallCloseIconFg: BASE_1;						// Notification close button (default)
+smallCloseIconFgOver: BASE_2;					// Notification close button (hover)
+
+radialFg: BASE_3;
+radialBg: #00000056;
+
+placeholderFg: BASE_1;                          // Inactive input box placeholder text
+placeholderFgActive: #aaaaaa;                   // Active input box placeholder text
+inputBorderFg: #e0e0e0;
+filterInputBorderFg: COLOR_CYAN;                // Search field border
+filterInputInactiveBg: windowBgOver;
+checkboxFg: #b3b3b3;
+
+sliderBgInactive: BASE_01;                      // Inactive media player button (prev/next song)
+sliderBgActive: windowBgActive;                 // Active media player button (prev/next song)
+
+tooltipBg: BASE_03;								// Time tooltip in message background
+tooltipFg: BASE_3;								// Time tooltip in message text
+tooltipBorderFg: BASE_02;						// Time tooltip in message border
+
+// Custom title bar for Windows and macOS
+titleBg: BASE_03;                               // Title bar
+titleShadow: BASE_02_LIGHT;
+titleButtonFg: BASE_1;                          // Title bar buttons(min/max/close)
+titleButtonBgOver: BASE_01;                     // Title bar min/max background (hover)
+titleButtonFgOver: BASE_3;                      // Title bar min/max icons 
+titleButtonCloseBgOver: COLOR_ORANGE;			// Close button (hover)
+titleButtonCloseFgOver: BASE_3;                 // Close button icon color
+titleFgActive: BASE_3;                          // Active title bar text (Mac)
+titleFg: BASE_1;                                // Inactive title bar text (Mac)
+
+// Tray icon
+trayCounterBg: COLOR_ORANGE;                    // Unread messages counter background in tray (not muted, default red)
+trayCounterBgMute: BASE_01;                     // Unread messages counter background in tray (muted, default gray)
+trayCounterFg: BASE_3;                          // Unread messages counter text (number)
+trayCounterBgMacInvert: BASE_3;            
+trayCounterFgMacInvert: BASE_3;
+
+// Layers
+layerBg: BASE_02_PREVIEW;						// Background when forwarding message
+
+cancelIconFg: menuIconFg;
+cancelIconFgOver: menuIconFgOver;
+
+// Boxes
+boxBg: BASE_03;                                 // Popup windows background color
+boxTextFg: BASE_1;                              // Popup windows text color
+boxTextFgGood: COLOR_GREEN;                     // Popup windows "good" text (e.g. "Username available")
+boxTextFgError: COLOR_RED;                      // Popup windows "bad" text (e.g. "Username already taken")
+boxTitleFg: BASE_3;                             // Popup windows titles color (sessions, contacts...)
+boxSearchBg: boxBg;
+boxSearchCancelIconFg: cancelIconFg;
+boxSearchCancelIconFgOver: cancelIconFgOver;
+
+boxTitleAdditionalFg: #808080;
+boxTitleCloseFg: cancelIconFg;
+boxTitleCloseFgOver: cancelIconFgOver;
+
+membersAboutLimitFg: windowSubTextFgOver;
+
+contactsBg: BASE_03;                            // Contacts list background color
+contactsBgOver: windowBgOver;                   // Contacts list mouse over background
+contactsNameFg: BASE_3;
+contactsStatusFg: BASE_1;                       // Contacts list last seen
+contactsStatusFgOver: windowSubTextFgOver;
+contactsStatusFgOnline: windowActiveTextFg;
+
+photoCropFadeBg: layerBg;                       // "Out-of-bounds" area in photo cropping (avatars etc...)
+photoCropPointFg: COLOR_CYAN_LIGHT;             // Photo crop "corners" (which you drag to crop photo)
+ 
+// Intro
+introBg: BASE_03;
+introTitleFg: windowBoldFg;
+introDescriptionFg: BASE_1;
+introErrorFg: BASE_1;
+
+introCoverTopBg: BASE_02;                       // Gradient finish at the top of the login screen
+introCoverBottomBg: BASE_02_LIGHT;              // Gradient start at the bottom of the login screen
+introCoverIconsFg: COLOR_CYAN;                  // Icons and clouds colors
+introCoverPlaneTrace: BASE_02_LIGHT;            // Plane trace
+introCoverPlaneInner: #c6d8e8;					// Plane color inside
+introCoverPlaneOuter: #a1bed4;					// Plane color outside
+introCoverPlaneTop: BASE_3;						// Main plane color
+
+dialogsMenuIconFg: menuIconFg;
+dialogsMenuIconFgOver: menuIconFgOver;
+
+dialogsBg: BASE_03;                             // Chats list background color
+dialogsNameFg: BASE_3;
+dialogsChatIconFg: dialogsNameFg;
+dialogsDateFg: BASE_1;                          // Chats list date text
+dialogsTextFg: BASE_1;                          // Chats list message preview text
+dialogsTextFgService: windowActiveTextFg;       // Chats list message preview sender name
+dialogsDraftFg: #dd4b39;                        // "Draft" word
+dialogsVerifiedIconBg: windowBgActive;          // Verification icon background
+dialogsVerifiedIconFg: BASE_3;                  // Verification icon check color
+dialogsSendingIconFg: #c1c1c1;
+dialogsSentIconFg: COLOR_CYAN_LIGHT;
+dialogsUnreadBg: COLOR_CYAN;                    // Chats list unread counter background
+dialogsUnreadBgMuted: BASE_01;                  // Unread counter (for muted chats) + pins color(?)
+dialogsUnreadFg: BASE_3;                        // Unread counter text color
+
+dialogsBgOver: BASE_02;                         // Inactive chat color on hover
+dialogsNameFgOver: #ededed;
+dialogsChatIconFgOver: dialogsNameFgOver;
+dialogsDateFgOver: windowSubTextFgOver;
+dialogsTextFgOver: windowSubTextFgOver;
+dialogsTextFgServiceOver: dialogsTextFgService; // Mouse over chats list message preview sender name
+dialogsDraftFgOver: dialogsDraftFg;
+dialogsVerifiedIconBgOver: dialogsVerifiedIconBg;
+dialogsVerifiedIconFgOver: dialogsVerifiedIconFg;
+dialogsSendingIconFgOver: dialogsSendingIconFg;
+dialogsSentIconFgOver: dialogsSentIconFg;
+dialogsUnreadBgOver: dialogsUnreadBg;
+dialogsUnreadBgMutedOver: dialogsUnreadBgMuted;
+dialogsUnreadFgOver: dialogsUnreadFg;
+
+dialogsBgActive: BASE_02_LIGHT;                 // Active chat color (in chats list)
+dialogsNameFgActive: BASE_3;
+dialogsChatIconFgActive: dialogsNameFgActive;
+dialogsDateFgActive: BASE_3;
+dialogsTextFgActive: BASE_3;
+dialogsTextFgServiceActive: dialogsTextFgActive;
+dialogsDraftFgActive: #c6e1f7;                  // "Draft" word when chat is selected
+dialogsVerifiedIconBgActive: dialogsTextFgActive;
+dialogsVerifiedIconFgActive: dialogsBgActive;
+dialogsSendingIconFgActive: BASE_3;
+dialogsSentIconFgActive: dialogsTextFgActive;
+dialogsUnreadBgActive: dialogsTextFgActive;
+dialogsUnreadBgMutedActive: dialogsDraftFgActive;
+dialogsUnreadFgActive: dialogsBgActive;
+
+dialogsForwardBg: dialogsBgActive;
+dialogsForwardFg: dialogsNameFgActive;
+
+searchedBarBg: BASE_03;                         // Search results window background color
+searchedBarBorder: COLOR_CYAN;
+searchedBarFg:  COLOR_CYAN_LIGHT;               // Search results text color
+
+// History
+topBarBg: BASE_03;                              // Chat header background
+emojiPanBg: BASE_03;                            // Sticker panel background
+emojiPanCategories: BASE_03;                    // Sticker panel bottom bar background
+emojiPanHeaderFg: COLOR_CYAN_LIGHT;             // Sticker panel title text
+emojiPanHeaderBg: BASE_03;                      // Sticker panel top bar background
+stickerPanDeleteBg: #000000cc;
+stickerPanDeleteFg: BASE_3;
+stickerPreviewBg: BASE_02_PREVIEW;              // Sticker preview background
+
+historyTextInFg: BASE_2;                        // Incoming messages TEXT color
+historyTextOutFg: BASE_3;                       // Outgoing messages TEXT color
+historyCaptionInFg: historyTextInFg;
+historyCaptionOutFg: historyTextOutFg;
+historyFileNameInFg: historyTextInFg;
+historyFileNameOutFg: historyTextOutFg;
+historyOutIconFg: dialogsSentIconFg;            // "Eye" and "Ticks" color for outgoing messages
+historyOutIconFgSelected: COLOR_CYAN_LIGHT;     // "Eye" and "Ticks" color for outgoing messages (selected)
+historyIconFgInverted: BASE_3;
+historySendingOutIconFg: COLOR_CYAN_LIGHT;      // "Clock" icon while sending file (outgoing)
+historySendingInIconFg: BASE_1;                 // "Clock" icon while sending file (incoming)
+historySendingInvertedIconFg: BASE_3;
+
+historySystemBg: #89a0b47f;
+historySystemBgSelected: #bbc8d4a2;
+historySystemFg: BASE_3;
+
+historyUnreadBarBg: BASE_02_LIGHT;              // Unread messages bar color
+historyUnreadBarBorder: BASE_03;
+historyUnreadBarFg: BASE_3;
+
+historyForwardChooseBg: #0000004c;              // "Choose recipient" BACKGROUND color (forwarding)
+historyForwardChooseFg: BASE_3;                 // "Choose recipient" TEXT color (forwarding)
+
+historyPeer1NameFg: #ff9100;                    // Group chat sender name - Red
+historyPeer1UserpicBg: #e17076;
+historyPeer2NameFg: #4fad2d;                    // Green
+historyPeer2UserpicBg: #7bc862;
+historyPeer3NameFg: #d09306;                    // Yellow
+historyPeer3UserpicBg: #e5ca77;
+historyPeer4NameFg: #15cd7d;                    // Blue
+historyPeer4UserpicBg: #65aadd;
+historyPeer5NameFg: #9a4ff7;                    // Purple
+historyPeer5UserpicBg: #a695e7;
+historyPeer6NameFg: #cd4073;                    // Pink
+historyPeer6UserpicBg: #ee7aae;
+historyPeer7NameFg: #2996ad;                    // Sea
+historyPeer7UserpicBg: #6ec9cb;
+historyPeer8NameFg: #ce671b;                    // Orange
+historyPeer8UserpicBg: #faa774;
+historyPeerUserpicFg: BASE_3;
+
+historyScrollBarBg: COLOR_CYAN;                 // Scrollbar (history view) background
+historyScrollBarBgOver: COLOR_CYAN_LIGHT;       // Scrollbar (history view) background (hover)
+historyScrollBg: BASE_01;                       // Scrollbar (history view) current position background
+historyScrollBgOver: BASE_01;                   // Scrollbar (history view) current position background (hover)
+
+msgInBg: BASE_02;                               // Incoming message background
+msgInBgSelected: COLOR_SELECTION;               // Selected incoming message background
+msgOutBg: BASE_02_LIGHT;                        // Outgoing message background
+msgOutBgSelected: COLOR_SELECTION;              // Selected outgoing message background
+msgSelectOverlay: BASE_02_PREVIEW;              // Selected media (images...) overlay
+msgStickerOverlay: BASE_02_PREVIEW;             // Selected sticker overlay
+msgInServiceFg: windowActiveTextFg;             // Incoming reply quoted name
+msgInServiceFgSelected: windowActiveTextFg;     // Selected incoming reply quoted name
+msgOutServiceFg:  windowActiveTextFg;           // Outgoing reply quoted name
+msgOutServiceFgSelected: COLOR_CYAN_LIGHT;      // Selected outgoing reply quoted name
+msgInShadow: #07364229;                         // Incoming message box shadow
+msgInShadowSelected: #2f303029;                 // Selected incoming message box shadow
+msgOutShadow: #4e4f4e40;                        // Outgoing message box shadow
+msgOutShadowSelected: #2f303040;                // Selected outgoing message box shadow
+msgInDateFg: #a0acb6;                           // Incoming message date text
+msgInDateFgSelected:  COLOR_CYAN_LIGHT;
+msgOutDateFg: BASE_1;                           // Outgoing message date text
+msgOutDateFgSelected:  COLOR_CYAN_LIGHT;
+msgServiceFg: BASE_3;                           // Service messages TEXT color (join, left etc)
+msgServiceBg: BASE_02_LIGHT;                    // Service messages BACKGROUND color (join, left etc)
+msgServiceBgSelected: #8ca0b3a2;
+msgInReplyBarColor: COLOR_CYAN;                 // Incoming msg: vertical bar next to reply
+msgInReplyBarSelColor: COLOR_CYAN;              // Incoming msg: vertical bar next to reply (selected)
+msgOutReplyBarColor: COLOR_CYAN;                // Outgoing msg: vertical bar next to reply
+msgOutReplyBarSelColor: COLOR_CYAN;             // Outgoing msg: vertical bar next to reply (selected)
+msgInMonoFg: COLOR_CYAN_LIGHT;                  // Monowidth font / incoming msg
+msgOutMonoFg: COLOR_CYAN_LIGHT;                 // Monowidth font / outgoing msg
+msgDateImgFg: msgServiceFg;						
+msgDateImgBg: #00000054;                        // Download / play / etc overlay backgrounds
+msgDateImgBgOver: #00000074;                    // Mouse over download / play / etc overlay backgrounds
+msgDateImgBgSelected: #1c4a7187;
+
+msgFileThumbLinkInFg: lightButtonFg;
+msgFileThumbLinkInFgSelected: lightButtonFgOver;
+msgFileThumbLinkOutFg: #5eba5b;
+msgFileThumbLinkOutFgSelected: #31a298;
+msgFileInBg: windowBgActive;
+msgFileInBgOver: COLOR_CYAN_LIGHT;
+msgFileInBgSelected: COLOR_CYAN_LIGHT;
+msgFileOutBg: COLOR_CYAN;
+msgFileOutBgOver: COLOR_CYAN_LIGHT;
+msgFileOutBgSelected: COLOR_CYAN_LIGHT;
+
+msgFile1Bg: #72b1df;							// Blue
+msgFile1BgDark: #5c9ece;
+msgFile1BgOver: #5294c4;
+msgFile1BgSelected: #5099d0;
+msgFile2Bg: #61b96e;							// Green
+msgFile2BgDark: #4da859;
+msgFile2BgOver: #44a050;
+msgFile2BgSelected: #46a07e;
+msgFile3Bg: #e47272;							// Red
+msgFile3BgDark: #cd5b5e;
+msgFile3BgOver: #c35154;
+msgFile3BgSelected: #9f6a82;
+msgFile4Bg: #efc274;							// Yellow
+msgFile4BgDark: #e6a561;
+msgFile4BgOver: #dc9c5a;
+msgFile4BgSelected: #b19d84;
+
+historyFileInIconFg: BASE_3;                    // Uploading/downloading icons?
+historyFileInIconFgSelected: BASE_3;
+historyFileInRadialFg: BASE_3;
+historyFileInRadialFgSelected: BASE_3;
+historyFileOutIconFg: BASE_3;
+historyFileOutIconFgSelected: BASE_3;
+historyFileOutRadialFg: BASE_3;
+historyFileOutRadialFgSelected: BASE_3;
+historyFileThumbIconFg: BASE_3;
+historyFileThumbIconFgSelected: BASE_3;
+historyFileThumbRadialFg: BASE_3;
+historyFileThumbRadialFgSelected: BASE_3;
+
+msgWaveformInActive: windowBgActive;            // Incoming Voice "heard" part
+msgWaveformInActiveSelected:  COLOR_CYAN_LIGHT; // Selected incoming Voice "heard" part
+msgWaveformInInactive: BASE_01;                 // Incoming Voice "unheard" part
+msgWaveformInInactiveSelected: BASE_01;         // Selected incoming Voice "unheard" part
+msgWaveformOutActive: windowBgActive;           // Outgoing Voice "heard" part
+msgWaveformOutActiveSelected:  COLOR_CYAN_LIGHT;// Selected outgoing Voice "heard" part
+msgWaveformOutInactive: BASE_01;                // Outgoing Voice "unheard" part
+msgWaveformOutInactiveSelected: BASE_01;        // Selected outgoing Voice "unheard" part
+
+msgBotKbOverBgAdd: BASE_03;                     // Inline button (hover)
+msgBotKbIconFg: BASE_3;                         // Inline button icon color (URL Buttons, for example)
+msgBotKbRippleBg: #00000020;                    // Inline button (press & hold)
+
+mediaInFg: msgInDateFg;
+mediaInFgSelected: msgInDateFgSelected;
+mediaOutFg: msgOutDateFg;
+mediaOutFgSelected: msgOutDateFgSelected;
+
+youtubePlayIconBg: #e83131c8;
+youtubePlayIconFg: BASE_3;
+videoPlayIconBg: #0000007f;
+videoPlayIconFg: BASE_3;
+toastBg: BASE_02_PREVIEW;						// Video player control block background
+toastFg: BASE_3;									
+
+reportSpamBg: emojiPanHeaderBg;
+reportSpamFg: BASE_1;
+
+historyToDownShadow: #00000040;
+historyComposeAreaBg: msgInBg;
+historyComposeAreaFg: BASE_3;                   // Text color in "Type your message" field
+historyComposeAreaFgService: msgInDateFg;
+historyComposeIconFg: menuIconFg;
+historyComposeIconFgOver: menuIconFgOver;
+historySendIconFg: windowBgActive;
+historySendIconFgOver: windowBgActive;
+historyPinnedBg: historyComposeAreaBg;
+historyReplyBg: historyComposeAreaBg;
+historyReplyCancelFg: cancelIconFg;
+historyReplyCancelFgOver: cancelIconFgOver;
+
+historyComposeButtonBg: historyComposeAreaBg;
+historyComposeButtonBgOver: windowBgOver;
+historyComposeButtonBgRipple: windowBgRipple;
+
+// Overview
+overviewCheckBg: #00000040;
+overviewCheckFg: BASE_03;
+overviewCheckFgActive: BASE_03;
+overviewPhotoSelectOverlay: #40ace333;
+profileStatusFgOver: #7c99b2;
+notificationsBoxMonitorFg: BASE_1;
+notificationsBoxScreenBg: dialogsBgActive;
+notificationSampleUserpicFg: windowBgActive;
+notificationSampleCloseFg: #d7d7d7;
+notificationSampleTextFg: #d7d7d7;
+notificationSampleNameFg: #939393;
+
+mainMenuBg: BASE_03;                            // Left menu background (lower part, not buttons)
+mainMenuCoverBg: dialogsBgActive;               // Left menu background (upper part)
+mainMenuCoverFg: BASE_3;
+mediaPlayerBg: BASE_03;                         // Music player background
+mediaPlayerActiveFg: COLOR_CYAN;                // Clickable Next song/Prev song button in music player
+mediaPlayerInactiveFg: BASE_01;                 // "Disabled" Next song/Prev song button in music player
+mediaPlayerDisabledFg: BASE_01;
+mediaviewFileBg: BASE_03;
+mediaviewFileNameFg: BASE_1;
+mediaviewFileSizeFg: BASE_1;
+mediaviewFileRedCornerFg: COLOR_RED;
+mediaviewFileYellowCornerFg: COLOR_YELLOW;
+mediaviewFileGreenCornerFg: COLOR_GREEN;
+mediaviewFileBlueCornerFg: COLOR_BLUE;
+mediaviewFileExtFg: activeButtonFg;
+mediaviewMenuBg: BASE_03;
+mediaviewMenuBgOver: BASE_02;
+mediaviewMenuBgRipple: BASE_03;
+mediaviewMenuFg: BASE_3;
+mediaviewBg: BASE_02_PREVIEW;					// Background for all media previews
+mediaviewVideoBg: imageBg;
+mediaviewControlBg: BASE_02_PREVIEW;			// Background for some controls in media preview window
+mediaviewControlFg: BASE_3;
+mediaviewCaptionBg: BASE_02_PREVIEW;			// Background for caption in media preview window
+mediaviewCaptionFg: mediaviewControlFg;
+mediaviewTextLinkFg: COLOR_CYAN;				// Links color in captions 
+mediaviewSaveMsgBg: toastBg;
+mediaviewSaveMsgFg: toastFg;
+mediaviewPlaybackActive: COLOR_CYAN;			// Controls color in video preview (default)
+mediaviewPlaybackInactive: BASE_01;             // Timeline color (default)
+mediaviewPlaybackActiveOver: COLOR_CYAN_LIGHT;  // Controls color in video preview (hover)
+mediaviewPlaybackInactiveOver: BASE_01;			// Timeline color (hover)
+mediaviewPlaybackProgressFg: BASE_3;            // Time color in video preview
+mediaviewPlaybackIconFg: mediaviewPlaybackActive;
+mediaviewPlaybackIconFgOver: mediaviewPlaybackActiveOver;
+mediaviewTransparentBg: BASE_3;
+mediaviewTransparentFg: #cccccc;
+notificationBg: BASE_03;                        // Notification background
