@@ -44,7 +44,7 @@ But here's also an official Telegram Support guide on how to edit and install Te
 
 # Credits
 
-Thanks [MasterGroosha](https://github.com/MasterGroosha/telegram-soliddark-theme) for his original code.
+Thanks [MasterGroosha](https://github.com/MasterGroosha/telegram-soliddark-theme) for his original source code.
 
 
 # Other
