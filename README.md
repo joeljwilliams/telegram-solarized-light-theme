@@ -22,6 +22,11 @@ Telegram Solarized Dark Theme is a theme for Telegram Desktop v1.0 and higher.
 
 It looks best in the environments configured to use Solarized color scheme (primary *nix systems with tiling WMs I guess). 
 
+# Screenshots
+
+![Main screen](screenshots/main.png)
+![Login screen](screenshots/login.png)
+
 
 # Install
 
