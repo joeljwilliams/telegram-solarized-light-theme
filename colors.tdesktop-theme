@@ -19,25 +19,25 @@
 
 // Used Solarized colors
 BASE_03: #002b36;                               // Main color 1 (dark one)
-BASE_02: #073642;							    // Main color 2
-BASE_02_LIGHT: #083a47;						    // A lighter one
+BASE_02: #073642;                               // Main color 2
+BASE_02_LIGHT: #083a47;                         // A lighter one
 BASE_02_PREVIEW: #0736427f;                     // Background color when sharing contact, forwarding message and so on
-BASE_01: #586e75;								// Bars, main buttons, timelines
-BASE_1: #97a1a1;								// System text (last seen, info), message previews, shadow
-BASE_2: #eee8d5;							 	// Incoming messages text
-BASE_3: #fdf6e3;							    // Titles, outcoming messages text
+BASE_01: #586e75;                               // Bars, main buttons, timelines
+BASE_1: #97a1a1;                                // System text (last seen, info), message previews, shadow
+BASE_2: #eee8d5;                                // Incoming messages text
+BASE_3: #fdf6e3;                                // Titles, outcoming messages text
 
-COLOR_SELECTION: #0f4d5c;						// Used when selecting messages, sticker, etc.
-COLOR_ACTIVE_BUTTON: #07364299;					// Active buttons and active chats - (press & hold)
+COLOR_SELECTION: #0f4d5c;                       // Used when selecting messages, sticker, etc.
+COLOR_ACTIVE_BUTTON: #07364299;                 // Active buttons and active chats - (press & hold)
 
-COLOR_YELLOW: #b58900;							// Used for some files
-COLOR_ORANGE: #cb4b16;							// Error values, close button
-COLOR_RED: #dc322f;								// Used for some files, 'block' buttons, wrong field values (like username)
-COLOR_BLUE: #268bd2;							// Used for some files
-COLOR_CYAN: #2aa198;							// Accent color 1
-COLOR_CYAN_LIGHT: #2daba1;						// Accent color 2 - just a bit lighter
-COLOR_GREEN: #859900;							// Used for some files and right field values (like username)
-COLOR_BLACK: #000000;							// Shh! We just need it!
+COLOR_YELLOW: #b58900;                          // Used for some files
+COLOR_ORANGE: #cb4b16;                          // Error values, close button
+COLOR_RED: #dc322f;                             // Used for some files, 'block' buttons, wrong field values (like username)
+COLOR_BLUE: #268bd2;                            // Used for some files
+COLOR_CYAN: #2aa198;                            // Accent color 1
+COLOR_CYAN_LIGHT: #2daba1;                      // Accent color 2 - just a bit lighter
+COLOR_GREEN: #859900;                           // Used for some files and right field values (like username)
+COLOR_BLACK: #000000;                           // Shh! We just need it!
 
 // Basic
 windowBg: BASE_03;                              // Window backgrounds
@@ -103,8 +103,8 @@ scrollBarBgOver: COLOR_CYAN_LIGHT;              // Mouse over scrollbar (chats l
 scrollBg: BASE_01;                              // Scrollbar (chats list) background
 scrollBgOver: BASE_01;                          // Mouse over scrollbar (chats list) background
 
-smallCloseIconFg: BASE_1;						// Notification close button (default)
-smallCloseIconFgOver: BASE_2;					// Notification close button (hover)
+smallCloseIconFg: BASE_1;                       // Notification close button (default)
+smallCloseIconFgOver: BASE_2;                   // Notification close button (hover)
 
 radialFg: BASE_3;
 radialBg: #00000056;
@@ -119,9 +119,9 @@ checkboxFg: #b3b3b3;
 sliderBgInactive: BASE_01;                      // Inactive media player button (prev/next song)
 sliderBgActive: windowBgActive;                 // Active media player button (prev/next song)
 
-tooltipBg: BASE_03;								// Time tooltip in message background
-tooltipFg: BASE_3;								// Time tooltip in message text
-tooltipBorderFg: BASE_02;						// Time tooltip in message border
+tooltipBg: BASE_03;                             // Time tooltip in message background
+tooltipFg: BASE_3;                              // Time tooltip in message text
+tooltipBorderFg: BASE_02;                       // Time tooltip in message border
 
 // Custom title bar for Windows and macOS
 titleBg: BASE_03;                               // Title bar
@@ -129,7 +129,7 @@ titleShadow: BASE_02_LIGHT;
 titleButtonFg: BASE_1;                          // Title bar buttons(min/max/close)
 titleButtonBgOver: BASE_01;                     // Title bar min/max background (hover)
 titleButtonFgOver: BASE_3;                      // Title bar min/max icons 
-titleButtonCloseBgOver: COLOR_ORANGE;			// Close button (hover)
+titleButtonCloseBgOver: COLOR_ORANGE;           // Close button (hover)
 titleButtonCloseFgOver: BASE_3;                 // Close button icon color
 titleFgActive: BASE_3;                          // Active title bar text (Mac)
 titleFg: BASE_1;                                // Inactive title bar text (Mac)
@@ -142,7 +142,7 @@ trayCounterBgMacInvert: BASE_3;
 trayCounterFgMacInvert: BASE_3;
 
 // Layers
-layerBg: BASE_02_PREVIEW;						// Background when forwarding message
+layerBg: BASE_02_PREVIEW;                       // Background when forwarding message
 
 cancelIconFg: menuIconFg;
 cancelIconFgOver: menuIconFgOver;
@@ -183,9 +183,9 @@ introCoverTopBg: BASE_02;                       // Gradient finish at the top of
 introCoverBottomBg: BASE_02_LIGHT;              // Gradient start at the bottom of the login screen
 introCoverIconsFg: COLOR_CYAN;                  // Icons and clouds colors
 introCoverPlaneTrace: BASE_02_LIGHT;            // Plane trace
-introCoverPlaneInner: #c6d8e8;					// Plane color inside
-introCoverPlaneOuter: #a1bed4;					// Plane color outside
-introCoverPlaneTop: BASE_3;						// Main plane color
+introCoverPlaneInner: #c6d8e8;                  // Plane color inside
+introCoverPlaneOuter: #a1bed4;                  // Plane color outside
+introCoverPlaneTop: BASE_3;                     // Main plane color
 
 dialogsMenuIconFg: menuIconFg;
 dialogsMenuIconFgOver: menuIconFgOver;
@@ -342,19 +342,19 @@ msgFileOutBg: COLOR_CYAN;
 msgFileOutBgOver: COLOR_CYAN_LIGHT;
 msgFileOutBgSelected: COLOR_CYAN_LIGHT;
 
-msgFile1Bg: #72b1df;							// Blue
+msgFile1Bg: #72b1df;                            // Blue
 msgFile1BgDark: #5c9ece;
 msgFile1BgOver: #5294c4;
 msgFile1BgSelected: #5099d0;
-msgFile2Bg: #61b96e;							// Green
+msgFile2Bg: #61b96e;                            // Green
 msgFile2BgDark: #4da859;
 msgFile2BgOver: #44a050;
 msgFile2BgSelected: #46a07e;
-msgFile3Bg: #e47272;							// Red
+msgFile3Bg: #e47272;                            // Red
 msgFile3BgDark: #cd5b5e;
 msgFile3BgOver: #c35154;
 msgFile3BgSelected: #9f6a82;
-msgFile4Bg: #efc274;							// Yellow
+msgFile4Bg: #efc274;                            // Yellow
 msgFile4BgDark: #e6a561;
 msgFile4BgOver: #dc9c5a;
 msgFile4BgSelected: #b19d84;
@@ -394,8 +394,8 @@ youtubePlayIconBg: #e83131c8;
 youtubePlayIconFg: BASE_3;
 videoPlayIconBg: #0000007f;
 videoPlayIconFg: BASE_3;
-toastBg: BASE_02_PREVIEW;						// Video player control block background
-toastFg: BASE_3;									
+toastBg: BASE_02_PREVIEW;                       // Video player control block background
+toastFg: BASE_3;
 
 reportSpamBg: emojiPanHeaderBg;
 reportSpamFg: BASE_1;
@@ -449,22 +449,23 @@ mediaviewMenuBg: BASE_03;
 mediaviewMenuBgOver: BASE_02;
 mediaviewMenuBgRipple: BASE_03;
 mediaviewMenuFg: BASE_3;
-mediaviewBg: BASE_02_PREVIEW;					// Background for all media previews
+mediaviewBg: BASE_02_PREVIEW;                   // Background for all media previews
 mediaviewVideoBg: imageBg;
-mediaviewControlBg: BASE_02_PREVIEW;			// Background for some controls in media preview window
+mediaviewControlBg: BASE_02_PREVIEW;            // Background for some controls in media preview window
 mediaviewControlFg: BASE_3;
-mediaviewCaptionBg: BASE_02_PREVIEW;			// Background for caption in media preview window
+mediaviewCaptionBg: BASE_02_PREVIEW;            // Background for caption in media preview window
 mediaviewCaptionFg: mediaviewControlFg;
-mediaviewTextLinkFg: COLOR_CYAN;				// Links color in captions 
+mediaviewTextLinkFg: COLOR_CYAN;                // Links color in captions 
 mediaviewSaveMsgBg: toastBg;
 mediaviewSaveMsgFg: toastFg;
-mediaviewPlaybackActive: COLOR_CYAN;			// Controls color in video preview (default)
+mediaviewPlaybackActive: COLOR_CYAN;            // Controls color in video preview (default)
 mediaviewPlaybackInactive: BASE_01;             // Timeline color (default)
 mediaviewPlaybackActiveOver: COLOR_CYAN_LIGHT;  // Controls color in video preview (hover)
-mediaviewPlaybackInactiveOver: BASE_01;			// Timeline color (hover)
+mediaviewPlaybackInactiveOver: BASE_01;         // Timeline color (hover)
 mediaviewPlaybackProgressFg: BASE_3;            // Time color in video preview
 mediaviewPlaybackIconFg: mediaviewPlaybackActive;
 mediaviewPlaybackIconFgOver: mediaviewPlaybackActiveOver;
 mediaviewTransparentBg: BASE_3;
 mediaviewTransparentFg: #cccccc;
 notificationBg: BASE_03;                        // Notification background
+
