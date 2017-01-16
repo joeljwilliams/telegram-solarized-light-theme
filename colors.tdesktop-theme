@@ -28,6 +28,7 @@ BASE_2: #eee8d5;							 	// Incoming messages text
 BASE_3: #fdf6e3;							    // Titles, outcoming messages text
 
 COLOR_SELECTION: #0f4d5c;						// Used when selecting messages, sticker, etc.
+COLOR_ACTIVE_BUTTON: #07364299;					// Active buttons and active chats - (press & hold)
 
 COLOR_YELLOW: #b58900;							// Used for some files
 COLOR_ORANGE: #cb4b16;							// Error values, close button
@@ -64,7 +65,7 @@ imageBgTransparent: BASE_3;
 // Widgets
 activeButtonBg: COLOR_CYAN;                     // Currently selected button background
 activeButtonBgOver: COLOR_CYAN_LIGHT;           // Mouse over currently selected button background
-activeButtonBgRipple: BASE_01;                  // Primary button background color (and active chat) - Press & hold 
+activeButtonBgRipple: COLOR_ACTIVE_BUTTON;      // Primary button background color (and active chat) - Press & hold 
 activeButtonFg: BASE_3;                         // Currently selected button text
 activeButtonFgOver: activeButtonFg;             // Mouse over currently selected button text
 activeButtonSecondaryFg: BASE_3;                // Counter color on primary button
