@@ -24,7 +24,10 @@ It looks best in the environments configured to use Solarized color scheme (prim
 
 # Screenshots
 
+Main screen:
 ![Main screen](Screenshots/main.png)
+
+Login screen:
 ![Login screen](Screenshots/login.png)
 
 
