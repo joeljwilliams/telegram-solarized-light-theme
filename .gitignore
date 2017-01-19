@@ -1,2 +1,3 @@
 # Ignore archive generated with bash-script
-SolarizedDark.tdesktop-theme
+build/
+tiled.png
