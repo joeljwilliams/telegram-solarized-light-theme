@@ -18,35 +18,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Telegram Solarized Light Theme is a theme for Telegram Desktop v1.0 and higher.
 
-It looks best in the environments configured to use Solarized color scheme (primary *nix systems with tiling WMs I guess). 
-
 # Screenshots
 
 Main screen:
 ![Main screen](Screenshots/main.png)
 
-Login screen:
-![Login screen](Screenshots/login.png)
-
-
 # Install
 
-That's very easy. Here's my method:
-1. Run ```git clone git@gitlab.com:SlavMetal/telegram-solarized-light-theme.git```
-2. Edit **colors.tdesktop-theme** using your favourite editor. 
-3. Run ```./build.sh``` (or zip **colors.tdesktop-theme** and **tile.png** manually and rename it to the **Theme.tdesktop-theme**).
-4. Upload archive to your Telegram cloud chat and press on this file, so you'll be asked if you want to use this theme. 
-
-But here's also an official Telegram Support guide on how to edit and install Telegram Desktop themes: http://telegra.ph/Create-Telegram-Theme-01-12
-
+Install from http://t.me/solarizedlight
 
 # Credits
 
-Thanks [MasterGroosha](https://github.com/MasterGroosha/telegram-solidlight-theme) for his original source code.
-
-
-# Other
-
-If you have any suggestions on how to improve Telegram Solarized Light Theme, or if you have noticed any bugs, please contact me in [Telegram](https://t.me/SlavMetal) or create issue here. 
-
-Share this theme with your friends and subscribe to https://t.me/SlavMetal_Dev to get notifications about new themes and other projects! :stuck_out_tongue:
+Thanks [SlavMetal](https://gitlab.com/SlavMetal/telegram-solarized-dark-theme) for his original source code.

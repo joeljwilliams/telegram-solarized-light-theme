@@ -1,5 +1,5 @@
 solarized-light.tdesktop-theme : colors.tdesktop-theme tiled.png
-	mkdir build/
+	mkdir -p build/
 	zip build/solarized-light.tdesktop-theme colors.tdesktop-theme tiled.png -g
 
 tiled.png :
